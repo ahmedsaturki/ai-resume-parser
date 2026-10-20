@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Resume Parser — حوّل سيرتك الذاتية إلى بيانات منظمة</title>
+<meta name="description" content="ارفع PDF سيرتك الذاتية واحصل على بيانات منظمة JSON في ثوانٍ — مجاناً أول 3 مرات.">
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-gray-100 min-h-screen">
+  <header class="border-b border-gray-800">
+    <nav class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
+      <span class="font-bold text-xl">📄 AI Resume Parser</span>
+      <a href="#upload" class="bg-indigo-500 text-white px-5 py-2 rounded-lg font-semibold hover:bg-indigo-400">ابدأ مجاناً</a>
+    </nav>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6">
+    <section class="py-20 text-center">
+      <h1 class="text-5xl font-extrabold mb-6 leading-tight">
+        سيرتك الذاتية PDF<br><span class="text-indigo-400">إلى بيانات جاهزة</span> في ثوانٍ
+      </h1>
+      <p class="text-xl text-gray-400 mb-10 max-w-2xl mx-auto">
+        ارفع السيرة، والذكاء الاصطناعي يستخرج: الخبرات، المهارات، التعليم، الشهادات — JSON منظم جاهز لأنظمة التوظيف.
+      </p>
+      <a href="#upload" class="bg-indigo-500 text-white px-8 py-3 rounded-lg font-bold text-lg hover:bg-indigo-400">ارفع سيرتك الآن — 3 مرات مجاناً</a>
+    </section>
+
+    <section class="py-16 grid md:grid-cols-3 gap-8">
+      <div class="bg-gray-900 rounded-xl p-8 border border-gray-800">
+        <h3 class="text-xl font-bold mb-3 text-indigo-400">للباحثين عن عمل</h3>
+        <p class="text-gray-400">بياناتك بتنسيق ATS-friendly — زد فرص القبول في أنظمة الفلترة.</p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-8 border border-gray-800">
+        <h3 class="text-xl font-bold mb-3 text-indigo-400">لمسؤولي التوظيف</h3>
+        <p class="text-gray-400">حوّل مئات السير إلى قاعدة بيانات قابلة للبحث فوراً.</p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-8 border border-gray-800">
+        <h3 class="text-xl font-bold mb-3 text-indigo-400">للمطورين</h3>
+        <p class="text-gray-400">API جاهز — أرسل PDF واحصل على JSON منظم.</p>
+      </div>
+    </section>
+
+    <section id="upload" class="py-20 text-center">
+      <h2 class="text-3xl font-bold mb-4">ارفع سيرتك الذاتية</h2>
+      <p class="text-gray-400 mb-8">PDF فقط · أقصى 5 ميجابايت · أول 3 مرات مجاناً</p>
+      <div class="max-w-md mx-auto border-2 border-dashed border-gray-700 rounded-xl p-12 hover:border-indigo-500 transition-colors cursor-pointer">
+        <p class="text-4xl mb-4">📄</p>
+        <p class="text-gray-400">اسحب الملف هنا أو اضغط للاختيار</p>
+        <p class="text-gray-600 text-sm mt-2">(سيُفعّل الرفع بعد توصيل Supabase Storage)</p>
+      </div>
+      <div class="mt-8 text-sm text-gray-500">
+        الدفع: Paymob (جنيه مصري) · Wise/Payoneer (دولي) — بدون Stripe
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-gray-800 py-8 text-center text-gray-500 text-sm">
+    AI Resume Parser — Python + OpenRouter + Supabase · صفر ميزانية تشغيلية
+  </footer>
+</body>
+</html>
